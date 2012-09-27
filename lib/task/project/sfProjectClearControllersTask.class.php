@@ -41,14 +41,14 @@ you have four default controller scripts in [web/|COMMENT]:
 
   [index.php
   frontend_dev.php
-  backend.php
-  backend_dev.php|INFO]
+  admin.php
+  admin_dev.php|INFO]
 
 After executing the [project:clear-controllers|COMMENT] task, two front
 controller scripts are left in [web/|COMMENT]:
 
   [index.php
-  backend.php|INFO]
+  admin.php|INFO]
 
 Those two controllers are safe because debug mode and the web debug
 toolbar are disabled.
