@@ -41,7 +41,7 @@ class sfWidgetFormFilterDate extends sfWidgetFormDateRange
 
     $this->addOption('with_empty', true);
     $this->addOption('empty_label', 'is empty');
-    $this->addOption('template', 'from %from_date%<br />to %to_date%');
+    $this->addOption('template', '%from_date% %to_date%');
     $this->addOption('filter_template', '%date_range%<br />%empty_checkbox% %empty_label%');
   }
 
